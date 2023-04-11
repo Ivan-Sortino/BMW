@@ -168,3 +168,90 @@ nav a:hover{
     text-align: center;
     font-weight: 700;
 }
+
+/* --------------------------------------------------------- */
+
+.sect{
+    display: flex;
+    justify-content: center;
+    margin: 0vh 0 0 -100vh;
+    align-items: center;
+}
+img{
+    
+    height: 50vh;
+    margin: 18vh 0 0 60vh;
+}
+.omg{
+    margin-left: 98vh;
+}
+
+h5{
+    text-align: center;
+}
+.sect-dos{
+    background: linear-gradient(90deg, rgba(5,0,79,1) 13%, rgba(9,9,121,1) 50%, rgba(0,136,198,1) 100%);
+    margin: 20vh 0;
+    background-image: url(./img/pexels-luis-quintero-3892890\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    padding: 12vh 0 28vh 0;
+    
+}
+
+h2{
+   margin: 0vh 0 5vh 70vh;
+   color: white;
+}
+.form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 65vh;
+}
+.input{
+    height: 6vh;
+    width: 75vh;
+    border-radius: 0.5vh;
+    color: rgb(78, 78, 78);
+    border: solid 1px silver;
+    opacity: 0.7;
+    outline: none;
+    padding-left: 15px;
+}
+.todo{
+    margin-left: 18%;
+    margin-top: 3%;
+}
+
+.check{
+    width: 4vh;
+    margin: 3vh 0 3vh 20vh;
+    display: flex;
+}
+.p{
+    color: black;
+    position: absolute;
+    z-index: 0;
+    margin: 31.5vh 0 0 24vh;
+    font-weight: 5px;
+}
+button{
+    height: 6ch;
+    width: 30vh;
+    border-radius: 10vh;
+    color: white;
+    background-color: #328cb9;
+    border-style: none;
+    margin-left: 21vh;
+    font-weight: 600;
+    margin-top: 3%;
+    cursor: pointer;
+}
+button:hover{
+    transition: .3s;
+    background-color: whitesmoke;
+    color: #328cb9;   
+}
